@@ -13,8 +13,8 @@ export default {
             <li data-target="#header-carousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <h1 class="fw-bold">Contemporary Ideas</h1>
+            <div class="carousel-item active text-center">
+                <h1 class="my_font-serif fw-bold">Contemporary Ideas</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error quam deleniti. Minima, modi
                     repellat! Aut neque molestias nesciunt rem voluptas nisi vero fugit dolor, assumenda atque quia
