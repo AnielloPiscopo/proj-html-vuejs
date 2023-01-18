@@ -21,5 +21,6 @@ export default {
 
 <style lang="scss">
 @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
-@use './styles/general.scss';
+@use './styles/general.scss' as *;
+@use './styles/momentaneal-styles.css' as *;
 </style>

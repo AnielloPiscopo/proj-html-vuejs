@@ -6,31 +6,27 @@ export default {
 
 
 <template>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#header-carousel" data-slide-to="1"></li>
+            <li data-target="#header-carousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../../assets/img/process-img-1.png" alt="First slide">
+                <h1 class="fw-bold">Contemporary Ideas</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error quam deleniti. Minima, modi
+                    repellat! Aut neque molestias nesciunt rem voluptas nisi vero fugit dolor, assumenda atque quia
+                    maxime dolorum.
+                </p>
+                <a href="#" class="btn btn-primary text-uppercase">Register now</a>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../../assets/img/process-img-2.png" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../../assets/img/process-img-3.png" alt="Third slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </template>
 

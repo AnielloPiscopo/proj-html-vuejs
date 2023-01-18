@@ -14,7 +14,7 @@ export default {
 
 
 <template>
-    <header>
+    <header class="p-5">
         <HeaderNav />
         <HeaderCarousel />
     </header>
