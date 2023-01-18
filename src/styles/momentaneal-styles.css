@@ -1,4 +1,9 @@
-header{
+header,
+footer{
     background-color: black;
     color: white;
+}
+
+footer .col{
+    background-color: blue;
 }
