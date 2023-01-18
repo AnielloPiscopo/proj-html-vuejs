@@ -1,12 +1,23 @@
 <script>
+import HeaderNav from './HeaderNav.vue';
+import HeaderCarousel from './HeaderCarousel.vue';
+
 export default {
     name: 'AppHeader',
+
+    components: {
+        HeaderNav,
+        HeaderCarousel,
+    }
 }
 </script>
 
 
 <template>
-    <header></header>
+    <header>
+        <HeaderNav />
+        <HeaderCarousel />
+    </header>
 </template>
 
 
