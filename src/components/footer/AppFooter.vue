@@ -16,6 +16,7 @@ export default {
 <template>
     <footer class="p-5">
         <FooterUpperPart />
+        <hr>
         <FooterLowerPart />
     </footer>
 </template>

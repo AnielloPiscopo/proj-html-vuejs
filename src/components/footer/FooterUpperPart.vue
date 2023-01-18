@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid my-4">
+    <div class="container-fluid py-5">
         <div class="row justify-content-between">
             <div class="col-10">
                 <div class="row">
