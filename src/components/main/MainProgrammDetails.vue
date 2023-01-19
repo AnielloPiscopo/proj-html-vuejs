@@ -123,10 +123,10 @@ export default {
                             </ul>
                         </div>
 
-                        <div class="col-1">
+                        <div class="col-2">
                             <div class="my_img-container">
                                 <img :src="store.getImgPath(imgsPath + (activeProgrammInfoIndex + 1) + imgsExtension)"
-                                    alt="">
+                                    alt="" class="w-100">
                             </div>
                         </div>
                     </div>

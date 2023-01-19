@@ -80,7 +80,7 @@ export default {
                 <div v-for="plan, index in plansList" class="card"
                     :class="(planActiveIndex === index) ? 'my_active' : ''" style="width: 18rem;" :key="index">
                     <div class="container-fluid">
-                        <img class="card-img-top"
+                        <img class="card-img-top w-100"
                             :src="store.getImgPath(plansIconsImgPath + plan.imgPath + plansIconsImgExtension)"
                             alt="Card image cap">
                         <h4 class="card-title">{{ '&#36;' + plan.Price }}</h4>

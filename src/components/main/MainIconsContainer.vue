@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-    <div class="my_icons-container d-flex justify-content-between p-5">
+    <div class="my_icons-container d-flex justify-content-between p-5 flex-wrap">
         <div class="my_icon-container p-5 d-flex flex-column align-items-center" v-for="icon, index in numberOfIcons"
             :key="index">
             <div class="my_img-container">
