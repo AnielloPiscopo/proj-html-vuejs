@@ -1,6 +1,7 @@
 <script>
 import MainIconsContainer from './MainIconsContainer.vue';
 import MainTestimonials from './MainTestimonials.vue';
+import MainProgrammDetails from './MainProgrammDetails.vue';
 import MainCourses from './MainCourses.vue';
 import MainPricingPlans from './MainPricingPlans.vue';
 
@@ -9,6 +10,7 @@ export default {
     components: {
         MainIconsContainer,
         MainTestimonials,
+        MainProgrammDetails,
         MainCourses,
         MainPricingPlans,
     }
@@ -20,6 +22,7 @@ export default {
     <main>
         <MainIconsContainer />
         <MainTestimonials />
+        <MainProgrammDetails />
         <MainCourses />
         <MainPricingPlans />
     </main>

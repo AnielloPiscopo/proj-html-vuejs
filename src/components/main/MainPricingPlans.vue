@@ -71,14 +71,14 @@ export default {
 
             <div class="card-group">
                 <div class="card" style="width: 18rem;">
-                    <h4 class="card-title">Save up to 40% by paying weekly</h4>
+                    <h4 class="card-title">Save up to 40&#37; by paying weekly</h4>
                     <ul v-for="key in Object.keys(plansList[0]).splice(3, 10)" class="list-group list-group-flush">
                         <li class="list-group-item">{{ key }}</li>
                     </ul>
                 </div>
 
-                <div v-for="plan, index in plansList" class="card" :class="(planActiveIndex = index) ? 'my_active' : ''"
-                    style="width: 18rem;" :key="index">
+                <div v-for="plan, index in plansList" class="card"
+                    :class="(planActiveIndex === index) ? 'my_active' : ''" style="width: 18rem;" :key="index">
                     <div class="container-fluid">
                         <img class="card-img-top"
                             :src="store.getImgPath(plansIconsImgPath + plan.imgPath + plansIconsImgExtension)"
@@ -104,6 +104,6 @@ export default {
     </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>
