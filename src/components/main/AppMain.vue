@@ -2,6 +2,7 @@
 import MainIconsContainer from './MainIconsContainer.vue';
 import MainTestimonials from './MainTestimonials.vue';
 import MainCourses from './MainCourses.vue';
+import MainPricingPlans from './MainPricingPlans.vue';
 
 export default {
     name: 'AppMain',
@@ -9,6 +10,7 @@ export default {
         MainIconsContainer,
         MainTestimonials,
         MainCourses,
+        MainPricingPlans,
     }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
         <MainIconsContainer />
         <MainTestimonials />
         <MainCourses />
+        <MainPricingPlans />
     </main>
 </template>
 
