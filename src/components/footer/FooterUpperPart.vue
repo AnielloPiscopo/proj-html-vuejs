@@ -57,7 +57,9 @@ export default {
                                 <span>{{ phoneContactResource }}</span>
                             </li>
                             <li>
-                                <span>iii</span>
+                                <span>
+                                    <font-awesome-icon icon="fa-regular fa-clock" />
+                                </span>
                                 <span>Mon-Sat 8.00-18.00</span>
                             </li>
                         </ul>

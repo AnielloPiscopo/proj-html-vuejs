@@ -30,7 +30,7 @@ export default {
         <MainProgrammDetails />
         <MainCourses />
         <MainPricingPlans />
-        <MainClientsLogoContainer />>
+        <MainClientsLogoContainer />
     </main>
 </template>
 

@@ -21,9 +21,21 @@ export default {
                 <ul class="list-unstyled text-uppercase d-flex justify-content-end">
                     <li><a href="#" class="text-decoration-none ps-4">Call {{ phoneContactResource }}</a></li>
                     <li><a href="#" class="text-decoration-none ps-4">Follow Us</a></li>
-                    <li><a href="#" class="text-decoration-none ps-4">i</a></li>
-                    <li><a href="#" class="text-decoration-none ps-4">i</a></li>
-                    <li><a href="#" class="text-decoration-none ps-4">i</a></li>
+                    <li>
+                        <a href="#" class="text-decoration-none ps-4">
+                            <font-awesome-icon icon="fa-brands fa-twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none ps-4">
+                            <font-awesome-icon icon="fa-brands fa-instagram" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none ps-4">
+                            <font-awesome-icon icon="fa-brands fa-facebook-f" />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
