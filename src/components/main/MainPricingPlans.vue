@@ -83,9 +83,10 @@ export default {
                         <img class="card-img-top"
                             :src="store.getImgPath(plansIconsImgPath + plan.imgPath + plansIconsImgExtension)"
                             alt="Card image cap">
-                        <h4 class="card-title">{{ plan['Number of Courses'] }}</h4>
+                        <h4 class="card-title">{{ '&#36;' + plan.Price }}</h4>
                     </div>
                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">{{ plan['Number of Courses'] }}</li>
                         <li class="list-group-item">{{ plan.Time }}</li>
                         <li class="list-group-item">{{ (plan['Web Designing']) ? '&#10003;' : '&#10007' }}</li>
                         <li class="list-group-item">{{ (plan['Human-Centered Design']) ? '&#10003;' : '&#10007' }}</li>
@@ -95,7 +96,7 @@ export default {
                         <li class="list-group-item">{{ (plan['Business English']) ? '&#10003;' : '&#10007' }}</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link btn btn-primary text-uppercase">Get it now</a>
+                        <a href="#" class="card-link btn btn-primary text-uppercase rounded rounded-0">Get it now</a>
                     </div>
                 </div>
             </div>
