@@ -38,7 +38,7 @@ export default {
         <div class="row justify-content-between">
             <div class="col-10">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-3">
                         <div class="my_logo-container">
                             <img src="../../assets/img/logo-light.png" alt="" class="w-50">
                         </div>
@@ -83,7 +83,7 @@ export default {
             <div class="col-2">
                 <h3 class="my_font-serif">Flexible Learning</h3>
                 <div class="my_img-container">
-                    <img src="../../assets/img/footer-img-1.png" alt="" class="w-100">
+                    <img src="../../assets/img/footer-img-1.png" alt="" class="w-75">
                 </div>
             </div>
         </div>

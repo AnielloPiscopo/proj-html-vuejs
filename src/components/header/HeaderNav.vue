@@ -23,7 +23,7 @@ export default {
         <div class="row align-items-center justify-content-between">
             <div class="col-2">
                 <a class="my_logo-container">
-                    <img src="../../assets/img/logo-light.png" alt="Logo" class="w-100">
+                    <img src="../../assets/img/logo-light.png" alt="Logo" class="w-75">
                 </a>
             </div>
 

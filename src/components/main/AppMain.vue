@@ -1,12 +1,19 @@
 <script>
+import MainIconsContainer from './MainIconsContainer.vue';
+
 export default {
     name: 'AppMain',
+    components: {
+        MainIconsContainer,
+    }
 }
 </script>
 
 
 <template>
-    <main></main>
+    <main>
+        <MainIconsContainer />
+    </main>
 </template>
 
 

@@ -7,3 +7,7 @@ footer{
 footer .col{
     background-color: blue;
 }
+
+main .my_icons-container .my_icon-container{
+    background-color: grey;
+}
