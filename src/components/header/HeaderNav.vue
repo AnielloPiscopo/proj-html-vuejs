@@ -1,9 +1,12 @@
 <script>
+import { store } from '../../store';
+
 export default {
     name: 'HeaderNav',
 
     data() {
         return {
+            store,
             navLinksList: [
                 'Home',
                 'Courses',
@@ -23,7 +26,7 @@ export default {
         <div class="row align-items-center justify-content-between">
             <div class="col-2">
                 <a class="my_logo-container">
-                    <img src="../../assets/img/logo-light.png" alt="Logo" class="w-75">
+                    <img :src="store.getImgPath('logo-light.png')" alt="Logo" class="w-75">
                 </a>
             </div>
 

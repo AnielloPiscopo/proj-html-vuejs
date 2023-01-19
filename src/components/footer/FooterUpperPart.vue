@@ -1,9 +1,12 @@
 <script>
+import { store } from '../../store';
+
 export default {
     name: 'FooterUpperPart',
 
     data() {
         return {
+            store,
             phoneContactResource: '1-677-124-44227',
             popularCoursesTeachersList: [
                 {
@@ -40,7 +43,7 @@ export default {
                 <div class="row">
                     <div class="col-3">
                         <div class="my_logo-container">
-                            <img src="../../assets/img/logo-light.png" alt="" class="w-50">
+                            <img :src="store.getImgPath('logo-light.png')" alt="" class="w-50">
                         </div>
 
                         <p>
@@ -83,7 +86,7 @@ export default {
             <div class="col-2">
                 <h3 class="my_font-serif">Flexible Learning</h3>
                 <div class="my_img-container">
-                    <img src="../../assets/img/footer-img-1.png" alt="" class="w-75">
+                    <img :src="store.getImgPath('footer-img-1.png')" alt="" class="w-75">
                 </div>
             </div>
         </div>
