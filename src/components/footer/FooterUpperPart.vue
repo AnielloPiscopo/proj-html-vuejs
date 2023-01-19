@@ -43,7 +43,7 @@ export default {
                 <div class="row">
                     <div class="col-3">
                         <div class="my_logo-container">
-                            <img :src="store.getImgPath('logo-light.png')" alt="" class="w-50">
+                            <img :src="store.getImgPath('footer-logo-1.png')" alt="" class="w-50">
                         </div>
 
                         <p>
