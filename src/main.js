@@ -14,8 +14,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faClipboard } from '@fortawesome/free-regular-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faTag } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faTwitter, faInstagram, faFacebookF, faClock, faBars, faClipboard, faMagnifyingGlass, faPhone);
+library.add(faTwitter, faInstagram, faFacebookF, faClock, faBars, faClipboard, faMagnifyingGlass, faPhone, faUser, faTag);
 
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

@@ -22,5 +22,11 @@ export default {
 <style lang="scss">
 @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
 @use './styles/general.scss' as *;
+@use './styles/partials/variables' as *;
 @use './styles/momentaneal-styles.css' as *;
+
+body {
+    background-color: $bg-color-1;
+    color: $text-color-23
+}
 </style>
