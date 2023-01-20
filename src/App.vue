@@ -27,6 +27,6 @@ export default {
 
 body {
     background-color: $bg-color-1;
-    color: $text-color-23
+    color: $text-color-21;
 }
 </style>

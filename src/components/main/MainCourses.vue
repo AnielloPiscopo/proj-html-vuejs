@@ -120,7 +120,7 @@ export default {
         .my_price {
             color: $text-color-3;
             background-color: $bg-color-11;
-            font-size: 2rem;
+            font-size: 1rem;
             padding: 0.2rem 1.5rem;
 
             &.my_special-offer {
