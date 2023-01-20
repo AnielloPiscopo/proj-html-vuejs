@@ -37,7 +37,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid py-5">
+    <div class="my_container container-fluid py-5">
         <div class="row justify-content-between">
             <div class="col-10">
                 <div class="row">
@@ -89,8 +89,8 @@ export default {
 
             <div class="col-2">
                 <h3 class="my_font-serif">Flexible Learning</h3>
-                <div class="my_img-container">
-                    <img :src="store.getImgPath('footer-img-1.png')" alt="" class="w-75">
+                <div class="my_img-container text-end">
+                    <img :src="store.getImgPath('footer-img-1.png')" alt="" class="w-100">
                 </div>
             </div>
         </div>
@@ -98,5 +98,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../styles/partials/variables' as *;
 
+.my_container,
+a {
+    color: $text-color-11;
+}
 </style>
