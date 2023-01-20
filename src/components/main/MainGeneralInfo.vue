@@ -18,7 +18,7 @@ export default {
 
 <template>
     <section id="general-info" class="py-5">
-        <div class="container-fluid my-5">
+        <div class="container-fluid mt-5">
             <div class="my_container container-fluid px-5">
                 <h1 class="my_font-serif my_title fw-bold w-50">The Trusted Name for In-Home Tutoring.</h1>
 
