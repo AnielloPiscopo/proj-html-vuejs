@@ -26,7 +26,7 @@ export default {
         <div class="row align-items-center justify-content-between">
             <div class="col-2">
                 <a class="my_logo-container">
-                    <img :src="store.getImgPath('logo-light.png')" alt="Logo" class="w-75">
+                    <img :src="store.getImgPath('logo-light.png')" alt="Logo" class="w-100">
                 </a>
             </div>
 
@@ -40,17 +40,23 @@ export default {
             </div>
 
             <div class="col-1">
-                <div class="my_icons-container d-flex justify-content-between">
-                    <a href="#" class="text-decoration-none">
-                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
-                    </a>
-                    <a href="#" class="text-decoration-none">
-                        <font-awesome-icon icon="fa-regular fa-clipboard" />
-                    </a>
-                    <a href="#" class="text-decoration-none">
-                        <font-awesome-icon icon="fa-solid fa-bars" />
-                    </a>
-                </div>
+                <ul class="my_icons-container d-flex justify-content-between list-unstyled m-0">
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <font-awesome-icon icon="fa-regular fa-clipboard" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <font-awesome-icon icon="fa-solid fa-bars" />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -58,5 +64,9 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../../styles/partials/variables' as *;
 
+li a {
+    color: $text-color-3;
+}
 </style>

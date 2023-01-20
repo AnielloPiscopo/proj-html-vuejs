@@ -22,5 +22,13 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../../styles/partials/variables' as *;
 
+header {
+    color: $text-color-3;
+    background-image: url('../../assets/img/h5-slide-3-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 </style>
