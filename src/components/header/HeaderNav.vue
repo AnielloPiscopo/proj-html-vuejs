@@ -41,9 +41,15 @@ export default {
 
             <div class="col-1">
                 <div class="my_icons-container d-flex justify-content-between">
-                    <span>iii</span>
-                    <span>iii</span>
-                    <span>iii</span>
+                    <a href="#" class="text-decoration-none">
+                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <font-awesome-icon icon="fa-regular fa-clipboard" />
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <font-awesome-icon icon="fa-solid fa-bars" />
+                    </a>
                 </div>
             </div>
         </div>

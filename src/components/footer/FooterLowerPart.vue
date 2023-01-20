@@ -14,7 +14,7 @@ export default {
     <div class="container-fluid py-5">
         <div class="row justify-content-between">
             <div class="col-4">
-                <a href="#" class="text-decoration-none">Copyright 2017 @Mikado Themes</a>
+                <a href="#" class="text-decoration-none">Copyright 2017&#169;Mikado Themes</a>
             </div>
 
             <div class="col-6">

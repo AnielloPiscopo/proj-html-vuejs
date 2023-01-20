@@ -53,7 +53,9 @@ export default {
 
                         <ul class="list-unstyled">
                             <li>
-                                <span>iii</span>
+                                <span>
+                                    <font-awesome-icon icon="fa-solid fa-phone" />
+                                </span>
                                 <span>{{ phoneContactResource }}</span>
                             </li>
                             <li>
