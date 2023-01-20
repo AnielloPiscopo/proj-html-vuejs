@@ -94,13 +94,19 @@ export default {
 </script>
 
 <template>
-    <section id="programm-details">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">
-                    <ul class="list-unstyled">
-                        <li v-for="programmInfo, index in programmInfoList" :key="index" class="my_font-serif fw-bold"
-                            :class="(activeProgrammInfoIndex === index) ? 'my_active' : ''">{{ programmInfo }}</li>
+    <section id="programm-details" class="py-5">
+        <div class="container-fluid p-5 my-5">
+            <div class="row justify-content-between">
+                <div class="col-3">
+                    <ul class="my_programm-list list-unstyled">
+                        <li v-for="programmInfo, index in programmInfoList" :key="index"
+                            class="my_font-serif fw-bold py-4"
+                            :class="(activeProgrammInfoIndex === index) ? 'my_active' : ''">
+
+                            <span class="px-4">
+                                {{ programmInfo }}
+                            </span>
+                        </li>
                     </ul>
 
                     <div class="my_img-container">
@@ -109,16 +115,18 @@ export default {
                 </div>
 
                 <div class="col-8">
-                    <h1 class="my_font-serif fw-bold">{{ programmDetailsList[activeProgrammInfoIndex].title }}</h1>
+                    <h1 class="my_font-serif my_title fw-bold">{{ programmDetailsList[activeProgrammInfoIndex].title }}
+                    </h1>
 
-                    <p>{{ programmDetailsList[activeProgrammInfoIndex].text }}</p>
+                    <p class="py-3">{{ programmDetailsList[activeProgrammInfoIndex].text }}</p>
 
                     <div class="row">
                         <div class="col-8">
-                            <ul>
-                                <li v-for="elementList in programmDetailsList[activeProgrammInfoIndex].list">{{
-                                    elementList
-                                }}
+                            <ul class="my_programm-details-list list-unstyled">
+                                <li v-for="elementList in programmDetailsList[activeProgrammInfoIndex].list"
+                                    class="pt-4">{{
+                                        elementList
+                                    }}
                                 </li>
                             </ul>
                         </div>
@@ -136,6 +144,43 @@ export default {
     </section>
 </template>
 
-<style lang="" scoped>
-    
+<style lang="scss" scoped>
+@use '../../styles/partials/variables' as *;
+
+#programm-details {
+    border-bottom: 2px solid $border-color-6;
+
+    p,
+    ul.my_programm-details-list li {
+        color: $text-color-15;
+    }
+
+    ul.my_programm-list li {
+        color: $text-color-7;
+        border-bottom: 2px solid $border-color-6;
+        border-left: 2px solid $border-color-6;
+        border-right: 2px solid $border-color-6;
+
+
+        &:first-of-type {
+            border-top: 2px solid $border-color-6;
+        }
+
+        &.my_active {
+            color: $text-color-6;
+            border-left: 10px solid $text-color-6;
+            background-color: $bg-color-7;
+        }
+    }
+
+    ul.my_programm-details-list li::before {
+        content: '\2713';
+        color: $text-color-6;
+        padding-right: 0.7remet;
+    }
+
+    .my_title {
+        font-size: 3.5rem;
+    }
+}
 </style>
