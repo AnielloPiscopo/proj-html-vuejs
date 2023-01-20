@@ -39,47 +39,50 @@ export default {
 <template>
     <div class="my_container container-fluid py-5">
         <div class="row justify-content-between">
-            <div class="col-10">
+            <div class="col-9">
                 <div class="row">
-                    <div class="col-3">
-                        <div class="my_logo-container">
+                    <div class="col-4">
+                        <div class="my_logo-container pb-2">
                             <img :src="store.getImgPath('footer-logo-1.png')" alt="" class="w-50">
                         </div>
 
-                        <p>
+                        <p class="w-75 py-4">
                             Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer
                             to Home
                         </p>
 
                         <ul class="list-unstyled">
-                            <li>
+                            <li class="my_icon-container pb-4">
                                 <span>
                                     <font-awesome-icon icon="fa-solid fa-phone" />
                                 </span>
-                                <span>{{ phoneContactResource }}</span>
+                                <span class="ps-3">{{ phoneContactResource }}</span>
                             </li>
-                            <li>
+                            <li class="my_icon-container pb-4">
                                 <span>
                                     <font-awesome-icon icon="fa-regular fa-clock" />
                                 </span>
-                                <span>Mon-Sat 8.00-18.00</span>
+                                <span class="ps-3">Mon-Sat 8.00-18.00</span>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-3 offset-1">
-                        <h3 class="my_font-serif">Popular Courses</h3>
+                    <div class="col-4">
+                        <h2 class="my_font-serif my_title pb-2">Popular Courses</h2>
 
-                        <div class="my_popular-courses" v-for="popularCoursesTeacher in popularCoursesTeachersList">
-                            <h5 class="my_font-serif m-0">{{ popularCoursesTeacher.course }}</h5>
-                            <span>{{ popularCoursesTeacher.name }}</span>
-                        </div>
+                        <ul class="my_popular-courses list-unstyled"
+                            v-for="popularCoursesTeacher in popularCoursesTeachersList">
+                            <li class="py-2">
+                                <h4 class="my_font-serif my_subtitle m-0">{{ popularCoursesTeacher.course }}</h4>
+                                <span>{{ popularCoursesTeacher.name }}</span>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-4">
-                        <h3 class="my_font-serif">Support</h3>
+                        <h2 class="my_font-serif my_title pb-2">Support</h2>
                         <ul class="list-unstyled">
-                            <li v-for="supportLink in supportLinksList">
+                            <li v-for="supportLink in supportLinksList" class="py-2">
                                 <a href="#" class="text-decoration-none">{{ supportLink }}</a>
                             </li>
                         </ul>
@@ -87,10 +90,10 @@ export default {
                 </div>
             </div>
 
-            <div class="col-2">
-                <h3 class="my_font-serif">Flexible Learning</h3>
+            <div class="col-3">
+                <h2 class="my_font-serif my_title text-end">Flexible Learning</h2>
                 <div class="my_img-container text-end">
-                    <img :src="store.getImgPath('footer-img-1.png')" alt="" class="w-100">
+                    <img :src="store.getImgPath('footer-img-1.png')" alt="" class="w-75">
                 </div>
             </div>
         </div>
@@ -100,8 +103,25 @@ export default {
 <style lang="scss" scoped>
 @use '../../styles/partials/variables' as *;
 
-.my_container,
-a {
+.my_container {
     color: $text-color-11;
+
+    .my_title {
+        color: $text-color-1;
+    }
+
+    a {
+        color: $text-color-11;
+    }
+
+    .my_subtitle,
+    .my_icon-container {
+        color: $text-color-5;
+    }
+
+    span,
+    ul li {
+        font-size: 1rem;
+    }
 }
 </style>

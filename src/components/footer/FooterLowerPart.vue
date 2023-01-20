@@ -45,8 +45,16 @@ export default {
 <style lang="scss" scoped>
 @use '../../styles/partials/variables' as *;
 
-.my_container,
-a {
+.my_container {
     color: $text-color-11;
+
+    span,
+    ul li {
+        font-size: 1rem;
+    }
+
+    a {
+        color: $text-color-11;
+    }
 }
 </style>
