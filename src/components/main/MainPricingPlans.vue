@@ -82,7 +82,7 @@ export default {
                 <div v-for="plan, index in plansList" class="my_card card rounded rounded-0"
                     :class="(planActiveIndex === index) ? 'my_active' : ''" style="width: 18rem;" :key="index">
                     <div class="my_card-body card-body">
-                        <div class="my_img-container  my_card-header text-center">
+                        <div class="my_img-container  my_card-header text-center py-4">
                             <img class="card-img-top"
                                 :src="store.getImgPath(plansIconsImgPath + plan.imgPath + plansIconsImgExtension)"
                                 alt="Card image cap">
