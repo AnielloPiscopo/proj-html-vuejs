@@ -88,7 +88,7 @@ export default {
                                 alt="Card image cap">
                         </div>
                         <h3 class="my_font-serif card-title fw-bold text-center">{{ plan.Type }}</h3>
-                        <h4 class="my_price text-center fw-bold">{{ '&#36;' + plan.Price }}</h4>
+                        <h4 class="my_price text-center fw-bold pb-4">{{ '&#36;' + plan.Price }}</h4>
                     </div>
                     <ul class="list-group list-group-flush text-center">
                         <li class="list-group-item py-4">{{ plan['Number of Courses'] }}</li>
