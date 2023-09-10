@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">
 <img src="https://img.shields.io/badge/Vite-646CFF.svg?style&logo=Vite&logoColor=white" alt="Vite" width="100" />
-<br>VITE-COMICS
+<br>PROJ-HTML-VUEJS
 </h1>
 <h3>◦ Project of the middle course of Full-Stack Web Developer with Boolean made with HTML , CSS , bootstrap , JS and Vue </h3>
 <h3>◦ Link: https://aniellopiscopo.github.io/proj-html-vuejs/</h3>
