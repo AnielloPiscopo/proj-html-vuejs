@@ -35,13 +35,6 @@
 
 ---
 
-
-## 📍 Overview
-
-HTTPStatus Exception: 429
-
----
-
 ## 🧩 Modules
 
 <details closed><summary>Root</summary>
