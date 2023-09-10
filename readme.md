@@ -29,15 +29,9 @@
 
 ## 📒 Table of Contents
 - [📒 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
-- [⚙️ Features](#-features)
-- [📂 Project Structure](#project-structure)
 - [🧩 Modules](#modules)
 - [🚀 Getting Started](#-getting-started)
-- [🗺 Roadmap](#-roadmap)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -45,20 +39,6 @@
 ## 📍 Overview
 
 HTTPStatus Exception: 429
-
----
-
-## ⚙️ Features
-
-HTTPStatus Exception: 429
-
----
-
-
-## 📂 Project Structure
-
-
-
 
 ---
 
@@ -80,15 +60,14 @@ HTTPStatus Exception: 429
 | [HeaderCarousel.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\header\HeaderCarousel.vue)                   | This is the component that containes the carousel put in the header. |
 | [HeaderNav.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\header\HeaderNav.vue)                             | This is the component that containes the navbar put in the header. |
 | [AppMain.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\AppMain.vue)                                   | This is the component that represents the main tag of the webpage. |
-| [MainClientsLogoContainer.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainClientsLogoContainer.vue) | HTTPStatus Exception: 429 |
-| [MainCourses.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainCourses.vue)                           | HTTPStatus Exception: 429 |
-| [MainGeneralInfo.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainGeneralInfo.vue)                   | HTTPStatus Exception: 429 |
-| [MainIconsContainer.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainIconsContainer.vue)             | HTTPStatus Exception: 429 |
-| [MainPricingPlans.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainPricingPlans.vue)                 | HTTPStatus Exception: 429 |
-| [MainProgrammDetails.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainProgrammDetails.vue)           | HTTPStatus Exception: 429 |
-| [MainTestimonials.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainTestimonials.vue)                 | HTTPStatus Exception: 429 |
+| [MainClientsLogoContainer.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainClientsLogoContainer.vue) | This is the component that containes a section of the main. |
+| [MainCourses.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainCourses.vue)                           | This is the component that containes a section of the main. |
+| [MainGeneralInfo.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainGeneralInfo.vue)                   | This is the component that containes a section of the main. |
+| [MainIconsContainer.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainIconsContainer.vue)             | This is the component that containes a section of the main. |
+| [MainPricingPlans.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainPricingPlans.vue)                 | This is the component that containes a section of the main. |
+| [MainProgrammDetails.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainProgrammDetails.vue)           | This is the component that containes a section of the main. |
+| [MainTestimonials.vue](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\components\main\MainTestimonials.vue)                 | This is the component that containes a section of the main. |
 | [general.scss](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\styles\general.scss)                                          | This is the file scss that contains the general style of the work. |
-| [momentaneal-styles.css](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\styles\momentaneal-styles.css)                      | HTTPStatus Exception: 429 |
 | [_variables.scss](https://github.com/AnielloPiscopo/proj-html-vuejs/blob/main/src\styles\partials\_variables.scss)                           | This is the file scss that contains the general stylistic variables of the work. |
 
 </details>
@@ -100,13 +79,12 @@ HTTPStatus Exception: 429
 ### ✔️ Prerequisites
 
 Before you begin, ensure that you have the following prerequisites installed:
-> - `ℹ️ Requirement 1`
-> - `ℹ️ Requirement 2`
-> - `ℹ️ ...`
+> - ℹ️ Node.js and npm (Node Package Manager): Make sure you have Node.js installed on your computer. You can download Node.js from the official website: https://nodejs.org/. Node.js includes npm, which will be used to install project dependencies.
+> - ℹ️ Git: Ensure you have Git installed on your computer. You can download Git from the official website: https://git-scm.com/. Git allows you to clone the GitHub repository onto your computer.
 
 ### 📦 Installation
 
-1. Clone the proj-html-vuejs repository:
+1. Clone the repository:
 ```sh
 git clone https://github.com/AnielloPiscopo/proj-html-vuejs
 ```
@@ -118,63 +96,19 @@ cd proj-html-vuejs
 
 3. Install the dependencies:
 ```sh
-`ℹ️  INSERT-DESCRIPTION`
+npm i
 ```
 
 ### 🎮 Using proj-html-vuejs
 
 ```sh
-`ℹ️  INSERT-DESCRIPTION`
+npm run dev
 ```
-
-### 🧪 Running Tests
-```sh
-`ℹ️  INSERT-DESCRIPTION`
-```
-
----
-
-
-## 🗺 Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Refactor Y`
-> - [ ] `ℹ️ ...`
-
-
----
-
-## 🤝 Contributing
-
-Contributions are always welcome! Please follow these steps:
-1. Fork the project repository. This creates a copy of the project on your account that you can modify without affecting the original project.
-2. Clone the forked repository to your local machine using a Git client like Git or GitHub Desktop.
-3. Create a new branch with a descriptive name (e.g., `new-feature-branch` or `bugfix-issue-123`).
-```sh
-git checkout -b new-feature-branch
-```
-4. Make changes to the project's codebase.
-5. Commit your changes to your local branch with a clear commit message that explains the changes you've made.
-```sh
-git commit -m 'Implemented new feature.'
-```
-6. Push your changes to your forked repository on GitHub using the following command
-```sh
-git push origin new-feature-branch
-```
-7. Create a new pull request to the original project repository. In the pull request, describe the changes you've made and why they're necessary.
-The project maintainers will review your changes and provide feedback or merge them into the main branch.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the `ℹ️  INSERT-LICENSE-TYPE` License. See the [LICENSE](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) file for additional info.
-
----
-
-## 👏 Acknowledgments
-
-> - `ℹ️  List any resources, contributors, inspiration, etc.`
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for additional info.
 
 ---
